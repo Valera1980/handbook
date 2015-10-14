@@ -17,9 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class StartPage {
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public ModelAndView getStartPage() {
-        ModelAndView view = new ModelAndView("start.jsp");
-        return view;
-    }
+//    @RequestMapping(value = "/", method = RequestMethod.GET)
+//    public ModelAndView getStartPage() {
+//        ModelAndView view = new ModelAndView("index.jsp");
+//        return view;
+//    }
 }
