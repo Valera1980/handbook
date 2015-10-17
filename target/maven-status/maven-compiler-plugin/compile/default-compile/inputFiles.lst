@@ -1,0 +1,7 @@
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/controllers/AspectPage.java
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/controllers/SimpleServiceImpl.java
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/testpack/BeforeAspect.java
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/testpack/DoAfterReturningAspect.java
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/controllers/StartPage.java
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/testpack/AfterAspect.java
+/home/valera/NetBeansProjects/handbook/src/main/java/com/handbook/controllers/SimpleService.java

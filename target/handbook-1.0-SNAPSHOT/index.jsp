@@ -6,5 +6,6 @@
     </head>
     <body>
         <h1>start page</h1>
+        <a href="http://localhost:8080/handbook/aspect">to aspect page</a>
     </body>
 </html>
