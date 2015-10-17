@@ -1,5 +1,8 @@
 com/handbook/controllers/StartPage.class
+com/handbook/testpack/DoAfterReturningAspect.class
+com/handbook/testpack/DoAroundAspect.class
 com/handbook/controllers/SimpleServiceImpl.class
 com/handbook/controllers/AspectPage.class
 com/handbook/testpack/BeforeAspect.class
 com/handbook/controllers/SimpleService.class
+com/handbook/testpack/AfterAspect.class
