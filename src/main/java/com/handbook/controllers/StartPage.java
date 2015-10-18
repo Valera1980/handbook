@@ -20,5 +20,6 @@ public class StartPage {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String getStartPage(Model model) {
         return "index";
+        
     }
 }
