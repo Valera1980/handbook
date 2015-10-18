@@ -24,7 +24,7 @@
     <context:annotation-config/>
     <aop:aspectj-autoproxy/>
     <mvc:resources mapping="/res/**" 
-                   location="/res/"/>
+                   location="WEB-INF/resources/"/>
     
 <!--    <bean id="doBeforeAspect" class="com.handbook.testpack.BeforeAspect">
         

@@ -22,7 +22,7 @@ public class AspectPage {
     
     @Autowired
     private SimpleService service;
-    
+   
    @RequestMapping(value = "/aspect",method = RequestMethod.GET)
    public ModelAndView getAspectPage(@RequestParam("par") String param){
        ModelAndView view = new ModelAndView("aspect");

@@ -7,7 +7,7 @@
     <body>
         
         <h1>start page</h1>
-        <a href="http://localhost:8080/handbook/aspect?par=${name}">to aspect page</a>
+        <a href="http://localhost:8080/handbook/aspect?par=tytytytyty">to aspect page</a>
         <input type="text" name="par" id="ii">
     </body>
 </html>
