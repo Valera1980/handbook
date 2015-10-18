@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -23,12 +24,14 @@ public class AspectPage {
     private SimpleService service;
     
    @RequestMapping(value = "/aspect",method = RequestMethod.GET)
-   public ModelAndView getAspectPage(){
+   public ModelAndView getAspectPage(@RequestParam("par") String param){
        ModelAndView view = new ModelAndView("aspect");
+       
        //String name = service.getName();
         //String name = "kkkkkkkkkkkkkkkkkk";
         //service.setName(name);
-       //view.addObject("name", "name = " + service.getName());
+       
+       view.addObject("name", "param = " + param);
        service.sayHello("hello from controller");
        return view;
    }

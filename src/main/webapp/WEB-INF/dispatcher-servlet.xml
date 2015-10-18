@@ -41,8 +41,13 @@
         
     </bean>
     
+<!--    <bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">-->
+        
+<!--    </bean>-->
+    
     <bean
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                     
         <property name="prefix">
             <value>/WEB-INF/views/</value>
         </property>
